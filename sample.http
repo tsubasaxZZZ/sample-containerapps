@@ -1,0 +1,8 @@
+POST https://nodeapp.ambitioussea-86c00c5e.centraluseuap.azurecontainerapps.io/neworder
+content-type: application/json
+
+{ "data": {"orderId":"121"} }
+
+###
+
+GET http://localhost:3500/v1.0/invoke/nodeapp/method/order
